@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+		function mult(e)
+		{
+			var m=document.getElementById("result");
+			m.innerHTML="Multiplication of coordinates = "+e.clientX*e.clientY;
+		}		
+	</script>
+	</head>
+	<body>
+	 
+	<h2 id="result">Multiplication of coordinates = 0</h2>
+	<input type = "button" style = "width: 100%; height : 400px;" value =" Click for Multiplication of Mouse Coordinates!"  onclick="mult(event)" ondblclick="mult(event)>">
+	</body>	
+</html>
